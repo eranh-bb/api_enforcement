@@ -7,7 +7,7 @@
       "@semantic-release/commit-analyzer"
     ],
     ["@semantic-release/exec", {
-      "publishCmd": "./api_versioning.sh ${nextRelease.version}"
+      "publishCmd": "echo \"v${nextRelease.version}\" | cut -d. -f1 > api_system_version"
     }]
   ]
 }
