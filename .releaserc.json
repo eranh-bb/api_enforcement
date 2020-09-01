@@ -3,6 +3,9 @@
     "master"
   ],
   "plugins": [
+    [
+      "@semantic-release/commit-analyzer"
+    ],
     ["@semantic-release/exec", {
       "publishCmd": "./api_versioning.sh ${nextRelease.version}"
     }]
