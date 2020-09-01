@@ -1,0 +1,14 @@
+{
+  "name": "api_enforcement",
+  "version": "1.0",
+  "description": "",
+  "scripts": {
+    "release": "semantic-release --no-ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eranh-bb/api_enforcement.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
