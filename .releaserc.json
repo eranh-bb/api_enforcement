@@ -8,6 +8,7 @@
     ],
     ["@semantic-release/exec", {
       "publishCmd": "echo \"v${nextRelease.version}\" | cut -d. -f1 > api_system_version"
-    }]
+    }
+    ]
   ]
 }
