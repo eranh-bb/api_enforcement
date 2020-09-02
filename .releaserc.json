@@ -7,7 +7,7 @@
       "@semantic-release/commit-analyzer"
     ],
     ["@semantic-release/exec", {
-      "publishCmd": "echo \"v${nextRelease.version}\" | cut -d. -f1 > api_system_version"
+      "publishCmd": "echo \"v${nextRelease.version}\" | awk -F. '{printf($1)}' > api_system_version"
     }
     ]
   ]
